@@ -4,17 +4,7 @@
 
 ### terminal
 
-1. copy the mybash to /home/<userName>/.mybash
-
-2. edit ~/.bashrc:
-    ```sh
-    $ nano ~/.bashrc
-    ```
-    add this line:
-    ```sh
-    $ source ~/.mybash
-    ```
-3. install and setup oh my zsh
+1. install and setup oh my zsh
     #### install zsh
     ```sh
     $ sudo apt-get install zsh
@@ -44,7 +34,18 @@
     ZSH_THEME="robbyrussell"
     plugins=(zsh-syntax-highlighting zsh-autosuggestions)
     ```
-4. intall font
+2. intall font
     [download font face](https://github.com/powerline/fonts/tree/master/GoMono)
     replcae "windows terminal" file with wwindows terminal settings
+
+3. copy the mybash to /home/<userName>/.mybash
+
+4. edit ~/.zshrc:
+    ```sh
+    $ nano ~/.zshrc
+    ```
+    add this line:
+    ```sh
+    $ source ~/.mybash
+    ```
     
