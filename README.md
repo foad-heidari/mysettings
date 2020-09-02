@@ -1,8 +1,6 @@
 # my settings 🍺
 
-  - Import a HTML file and watch it magically convert to Markdown
-
-> The overriding design goal for Markdown's
+> this is my settings
 
 ### terminal
 
@@ -50,16 +48,3 @@
     [download font face](https://github.com/powerline/fonts/tree/master/GoMono)
     replcae "windows terminal" file with wwindows terminal settings
     
-    
-    
-
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
-
-Install the dependencies and devDependencies and start the server.
-
-
-
-First Tab:
-```sh
-$ node app
-```
