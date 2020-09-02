@@ -1,0 +1,20 @@
+container="pescheck-ng_app_1"
+
+alias pescheck='
+        echo "[*] --> start postgresql";
+        sudo service postgresql start;
+        echo "[*] --> cd pescheck";
+        cd ~/pescheck-ng;
+        echo "[*] --> activate virtualenv";
+        source /home/foad/.local/share/virtualenvs/pescheck-ng-Q72dfakK/bin/activate;
+        echo "[*] --> open vsCode";
+        code .;
+        echo "[*] --> runserver";
+        python manage.py runserver;
+        ;
+'
+alias runserver="python manage.py runserver"
+alias dockerl="docker logs -f -t $container"
+alias dockert="docker exec -i -t pescheck-ng_app_1 bash"
+
+
