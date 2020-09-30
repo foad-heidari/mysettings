@@ -7,7 +7,7 @@ cowsay "Welcome $(whoami)
         $dt
         "
 
-container="pescheck-ng_app_1"
+container=""
 
 alias pescheck='
         echo "[*] --> start postgresql";
@@ -22,5 +22,5 @@ alias pescheck='
         python manage.py runserver;
 '
 alias runserver="python manage.py runserver"
-alias dockerl="docker logs -f -t $container"
-alias dockert="docker exec -i -t pescheck-ng_app_1 bash"
+alias dlogs="docker logs -f -t $container"
+alias dbash="docker exec -i -t container bash"
