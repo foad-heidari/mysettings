@@ -26,6 +26,10 @@
     git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
     ```
     
+    ```sh
+    sudo apt install cowsay
+    ```
+    
     #### customize
     ```sh
     $ nano ~/.zshrc
