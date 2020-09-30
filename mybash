@@ -1,3 +1,12 @@
+dt=$(date '+%d/%m/%Y - %H:%M');
+cowsay "Welcome $(whoami)
+        *-*
+        You are in '$(pwd)'
+        Postgresql is $(service postgresql status | grep -o 'down\|online')
+        *-*
+        $dt
+        "
+
 container="pescheck-ng_app_1"
 
 alias pescheck='
@@ -11,10 +20,7 @@ alias pescheck='
         code .;
         echo "[*] --> runserver";
         python manage.py runserver;
-        ;
 '
 alias runserver="python manage.py runserver"
 alias dockerl="docker logs -f -t $container"
 alias dockert="docker exec -i -t pescheck-ng_app_1 bash"
-
-
