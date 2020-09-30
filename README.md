@@ -1,6 +1,5 @@
-# my settings 🍺
+# My Bash Terminal Settings 🍺
 
-> this is my settings
 
 ### terminal
 
@@ -42,7 +41,7 @@
     [download font face](https://github.com/powerline/fonts/tree/master/GoMono)
     replcae "windows terminal" file with wwindows terminal settings
 
-3. copy the mybash to /home/<userName>/.mybash
+3. copy the mybash to /home/(userName)/.mybash
 
 4. edit ~/.zshrc:
     ```sh
